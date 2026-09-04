@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BBB",
+    "BCB",
+    "BBB"
+  ],
+  "key": {
+    "B": { "item": "minecraft:birch_log" },
+    "C": { "item": "minecraft:chest" }
+  },
+  "result": {
+    "id": "minecraft:chest",
+    "count": 1,
+    "components": {
+      "minecraft:container_loot": {
+        "loot_table": "secretvault:chests/vault_chest"
+      },
+      "minecraft:custom_name": "{\"text\":\"Vault Chest\",\"italic\":false,\"color\":\"gold\"}"
+    }
+  }
+}

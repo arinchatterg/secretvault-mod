@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    { "rolls": 1, "entries": [ { "type": "minecraft:item", "name": "minecraft:diamond_helmet",
+      "functions": [ { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:protection": 4, "minecraft:unbreaking": 3, "minecraft:mending": 1, "minecraft:thorns": 3, "minecraft:respiration": 3, "minecraft:aqua_affinity": 1 } },
+      { "function": "minecraft:set_components", "components": { "minecraft:unbreakable": {} } } ] } ] },
+
+    { "rolls": 1, "entries": [ { "type": "minecraft:item", "name": "minecraft:diamond_chestplate",
+      "functions": [ { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:protection": 4, "minecraft:unbreaking": 3, "minecraft:mending": 1, "minecraft:thorns": 3 } },
+      { "function": "minecraft:set_components", "components": { "minecraft:unbreakable": {} } } ] } ] },
+
+    { "rolls": 1, "entries": [ { "type": "minecraft:item", "name": "minecraft:diamond_leggings",
+      "functions": [ { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:protection": 4, "minecraft:unbreaking": 3, "minecraft:mending": 1, "minecraft:swift_sneak": 3 } },
+      { "function": "minecraft:set_components", "components": { "minecraft:unbreakable": {} } } ] } ] },
+
+    { "rolls": 1, "entries": [ { "type": "minecraft:item", "name": "minecraft:diamond_boots",
+      "functions": [ { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:protection": 4, "minecraft:unbreaking": 3, "minecraft:mending": 1, "minecraft:feather_falling": 4, "minecraft:depth_strider": 3, "minecraft:soul_speed": 3 } },
+      { "function": "minecraft:set_components", "components": { "minecraft:unbreakable": {} } } ] } ] },
+
+    { "rolls": 1, "entries": [ { "type": "minecraft:item", "name": "minecraft:diamond_sword",
+      "functions": [ { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:sharpness": 5, "minecraft:unbreaking": 3, "minecraft:mending": 1, "minecraft:looting": 3, "minecraft:fire_aspect": 2, "minecraft:sweeping_edge": 3 } },
+      { "function": "minecraft:set_components", "components": { "minecraft:unbreakable": {} } } ] } ] },
+
+    { "rolls": 1, "entries": [ { "type": "minecraft:item", "name": "minecraft:diamond_pickaxe",
+      "functions": [ { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:efficiency": 5, "minecraft:unbreaking": 3, "minecraft:mending": 1, "minecraft:fortune": 3 } },
+      { "function": "minecraft:set_components", "components": { "minecraft:unbreakable": {} } } ] } ] },
+
+    { "rolls": 1, "entries": [ { "type": "minecraft:item", "name": "minecraft:diamond_axe",
+      "functions": [ { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:efficiency": 5, "minecraft:unbreaking": 3, "minecraft:mending": 1, "minecraft:sharpness": 5 } },
+      { "function": "minecraft:set_components", "components": { "minecraft:unbreakable": {} } } ] } ] },
+
+    { "rolls": 1, "entries": [ { "type": "minecraft:item", "name": "minecraft:diamond_shovel",
+      "functions": [ { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:efficiency": 5, "minecraft:unbreaking": 3, "minecraft:mending": 1, "minecraft:fortune": 3 } },
+      { "function": "minecraft:set_components", "components": { "minecraft:unbreakable": {} } } ] } ] },
+
+    { "rolls": 1, "entries": [ { "type": "minecraft:item", "name": "minecraft:diamond_hoe",
+      "functions": [ { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:efficiency": 5, "minecraft:unbreaking": 3, "minecraft:mending": 1 } },
+      { "function": "minecraft:set_components", "components": { "minecraft:unbreakable": {} } } ] } ] },
+
+    { "rolls": 1, "entries": [ { "type": "minecraft:item", "name": "minecraft:mace",
+      "functions": [ { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:breach": 4, "minecraft:density": 5, "minecraft:unbreaking": 3, "minecraft:mending": 1 } },
+      { "function": "minecraft:set_components", "components": { "minecraft:unbreakable": {}, "minecraft:custom_name": "{\"text\":\"Vault Key\",\"italic\":false,\"color\":\"gold\"}" } } ] } ] },
+
+    { "rolls": 1, "entries": [ { "type": "minecraft:item", "name": "minecraft:cobweb",
+      "functions": [ { "function": "minecraft:set_count", "count": 64 } ] } ] },
+
+    { "rolls": 1, "entries": [ { "type": "minecraft:item", "name": "minecraft:cobweb",
+      "functions": [ { "function": "minecraft:set_count", "count": 64 } ] } ] },
+
+    { "rolls": 1, "entries": [ { "type": "minecraft:item", "name": "minecraft:wind_charge",
+      "functions": [ { "function": "minecraft:set_count", "count": 64 } ] } ] }
+  ]
+}

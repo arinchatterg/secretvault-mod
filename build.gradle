@@ -1,0 +1,44 @@
+plugins {
+	id 'java'
+	id 'net.fabricmc.fabric-loom' version '1.17.+'
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+	archivesName = project.archives_base_name
+}
+
+repositories {
+	// Add other repositories here if you need them
+}
+
+dependencies {
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	// This branch of Minecraft ships without obfuscation, so no mappings artifact is required
+	loader "net.fabricmc:fabric-loader:${project.loader_version}"
+
+	// Fabric API
+	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}+${project.minecraft_version}"
+}
+
+java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(25)
+	}
+	withSourcesJar()
+}
+
+processResources {
+	inputs.property "version", project.version
+	filteringCharset "UTF-8"
+
+	filesMatching("fabric.mod.json") {
+		expand "version": project.version
+	}
+}
+
+tasks.withType(JavaCompile).configureEach {
+	it.options.release = 25
+}
