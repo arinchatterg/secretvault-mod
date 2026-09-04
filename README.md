@@ -5,6 +5,8 @@ and it's pre-filled with maxed diamond armor/tools, a Mace with Breach IV, 2 sta
 of cobwebs, and 64 wind charges - generated the same way vanilla dungeon/stronghold
 loot chests work (via the `minecraft:container_loot` item component).
 
+Disguise this as a server mod to gain advantages early game in anarchy servers. 
+
 <img width="372" height="182" alt="image (3)" src="https://github.com/user-attachments/assets/622b1f77-0e35-4b75-b8e0-6baf37fe902f" />
 
 ## How to build
