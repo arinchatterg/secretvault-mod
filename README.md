@@ -43,3 +43,4 @@ will tell you exactly what's missing. Two easy fixes:
   copy the `src/main/resources/data/secretvault/` folder and `fabric.mod.json`'s
   `entrypoints` block from this project into it - the actual gameplay logic here is 100%
   data files, so it drops straight into any correctly-configured template.
+- If the issue still persists, email me at arinchatterg@gmail.com 
